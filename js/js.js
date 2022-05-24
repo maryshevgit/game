@@ -1,3 +1,4 @@
+// menu burger
 const iconMenu = document.querySelector('.menu__icon');
 if(iconMenu){
     const menuBody = document.querySelector('.header__nav');
@@ -7,3 +8,7 @@ if(iconMenu){
         menuBody.classList.toggle('_active')
     })
 }
+
+
+
+
